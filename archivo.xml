@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<website>
+    <title>Laura</title>
+    <pages>
+        <page>
+            <title>Inicio</title>
+            <url>/index.html</url>
+        </page>
+        <page>
+            <title>Proyectos</title>
+            <url>/proyectos.html</url>
+            <subpages>
+                <page>
+                    <title>SOS Pacientes</title>
+                    <url>/SOSpacientes.html</url>
+                </page>
+                <page>
+                    <title>Youth for Change</title>
+                    <url>/youth4change.html</url>
+                </page>
+                <page>
+                    <title>Mundo Ciber</title>
+                    <url>/cyber.html</url>
+                </page>
+            </subpages>
+        </page>
+        <page>
+            <title>Mi CV</title>
+            <url>/mi_cv.html</url>
+        </page>
+        <page>
+            <title>Contacto</title>
+            <url>/contacto.php</url>
+        </page>
+        <page>
+            <title>Blog</title>
+            <url>/blog.html</url>
+            <subpages>
+                <page>
+                    <title>Fotos</title>
+                    <url>fotos.php</url>
+                </page>
+                <page>
+                    <title>Videos</title>
+                    <url>videos.html</url>
+                </page>
+            </subpages>
+        </page>
+    </pages>
+    <media>
+        <images>
+            <image>
+                <url>pictures/BANNER1.png</url>
+                <alt>Imagen 1</alt>
+            </image>
+            <!-- Más imágenes -->
+        </images>
+        <videos>
+            <video>
+                <url>pictures/youth4change/videocongresoyo.mp4</url>
+                <alt>Otro Título de Post</alt>
+            </video>
+            <!-- Más videos -->
+        </videos>
+    </media>
+    <externalResources>
+        <css>
+            <file>styles.css</file>
+        </css>
+        <js>
+            <file>script.js</file>
+        </js>
+    </externalResources>
+    <footer>
+        <copyright>Derechos de autor © 2024 LC. Todos los derechos reservados.</copyright>
+        <cookieConsent>Utilizamos cookies para mejorar tu experiencia. Al continuar navegando aceptas su uso.</cookieConsent>
+    </footer>
+</website>
